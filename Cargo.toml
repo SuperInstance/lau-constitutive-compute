@@ -1,0 +1,13 @@
+[package]
+name = "lau-constitutive-compute"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-constitutive-compute"
+description = "Constitutive Computation — the Zero-Cost Theorem, Karoubi splitting, and Naturality Boundary for structure-as-computation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+
+[dev-dependencies]
